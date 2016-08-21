@@ -1,0 +1,24 @@
+{
+  "name": "filesize-twig-extension",
+  "version": "1.0.0",
+  "description": "Twig filesize extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemadisonweb/FilesizeTwigExtension.git"
+  },
+  "author": "Mikhail Bakulin <m.bakulin@informika.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikemadisonweb/FilesizeTwigExtension/issues"
+  },
+  "homepage": "https://github.com/mikemadisonweb/FilesizeTwigExtension#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-phpunit": "^0.16.0"
+  }
+}
