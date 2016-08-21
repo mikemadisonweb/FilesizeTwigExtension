@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 
 gulp.task('phpunit', function() {
     var options = {debug: false, notify: true};
-    gulp.src('app/tests/*.php')
+    gulp.src('tests/**/*.php')
         .pipe(phpunit('', options))
         .on('error', notify.onError({
             title: "Failed Tests!",
@@ -13,5 +13,5 @@ gulp.task('phpunit', function() {
 });
 
 gulp.task('default', function(){
-    gulp.watch('app/**/*.php', { debounceDelay: 2000 }, ['phpunit']);
+    gulp.watch('tests/**/*.php', { debounceDelay: 2000 }, ['phpunit']);
 });
